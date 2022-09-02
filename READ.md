@@ -50,4 +50,5 @@ git commit
 
 ```bash
 git log
+git origin main
 ```
