@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <input required id="input-nombre" value="Edu" type="text" name="Nombre" placeholder="Ingrese su nombre"/>
+        </p>
+
+        <p>
+            <input type="number" style="width: 164px" maxlength="8" placeholder="Ingrese su DNI"/>
+        </p>
+        
+        <p>
+            <input readonly required value="92" name="Edad" type="number" placeholder="Ingrese su edad"/>
+        </p>
+
+        <p>
+            <input required name="Correo" type="email" placeholder="Ingrese su correo"/>
+        </p>
+
+        <p>
+            <input required name="Clave" type="password" placeholder="Ingrese su contraseña"/>
+        </p>
+
+        <p>
+            <input required type="date" placeholder="Ingrese la fecha"/>
+        </p>
+
+        <p>
+            <select required>
+                <option value="" disabled selected>Selecciona un curso</option>
+                <option value="curso-react" selected>Curso de React</option>
+                <option value="">Curso de HTML</option>
+                <option value="">Curso de CSS</option>
+                <option value="">Curso de Angular</option>
+            </select>
+        </p>
+        <p>
+            <!-- Botones para enviar datos -->
+            <button type="Submit">Enviar datos con boton</button>
+            <!-- Equivalente -->
+            <input type="submit" value="Enviar datos con input" />
+        </p>
+    </form>
+</body>
+</html>
